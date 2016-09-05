@@ -1,2 +1,2 @@
 # canvas-scripts
-A collection of usefule scripts for Canvas LMS
+A collection of useful scripts for Canvas LMS
