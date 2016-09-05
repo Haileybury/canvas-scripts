@@ -7,11 +7,11 @@ $SQLDB = "ENTER SQL DATABASE NAME HERE"
 
 $sourceDir = "C:\canvas_integration\data_files\" #this is source directory literal path
 $outputPath = "C:\canvas_integration\" #output path for the zip file creation
-$account_id = "1" #root account id from Canvas, usually 1
-$token = "" # access_token
-$domain = "haileybury.instructure.com" #hthis is your Canvas url
+$account_id = "<account_id>" #root account id from Canvas, usually 1
+$token = "<some_token>" # access_token
+$domain = "<school>.instructure.com" #hthis is your Canvas url
 $outputZip = "canvas_data.zip" # name of the zip file to create
-$diff_id = "2016semester1" #create a unique ID to use diffing, this is what subsequent sis import will compare data against to speed up imports
+$diff_id = "<unique value>" #create a unique ID to use diffing, this is what subsequent sis import will compare data against to speed up imports
 $diff_remaster = "false" # set to true if you need to push a remaster into Canvas, else leave false.
 
 ##Run the snapshots to extract the data to CSV's ##
