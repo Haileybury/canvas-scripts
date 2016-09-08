@@ -1,4 +1,4 @@
-#SQL tables and views used for Synergetic - canvas SIS integrations
+#SQL tables and views used for Synergetic - Canvas SIS integrations
 
  
 This is a collection of table and view creation scripts designed for a Synergetic database.  Akll tables and views are created as user tables and user views, as per Synergetic requirements.
